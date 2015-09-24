@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link href="css/style.css" media="screen" rel="stylesheet"/>
+    <title>Contact Us</title>
+
+  </head>
+
+  <body id="contact">
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+
+    <nav>
+          <ul>
+            <li><a href="sprockets.html#sprockets">Home</a></li>
+            <li><a href="company.html#company">Our Company</a></li>
+            <li><a href="products.html#contact">Our Products</a></li>
+          </ul>
+    </nav>
+
+<main>
+
+  <h3>Thank you for your interest in Spacely Sprockets. To get in touch with us, please fill out the form below. One of our representatives will contact you as soon as possible.</h3>
+
+  <p>* required</p>
+
+  <form action="http://www.example.com/review.php" method="get">
+    <fieldset>
+      <label>
+        Name*:
+        <input type="text" name="name" size="30" maxlength="100">
+      </label>
+      <br />
+      <label>
+        Company:
+        <input type="text" name="company" size="30" maxlength="100">
+      </label>
+      <br />
+      <label>
+        Address:
+        <input type="text" name="address" size="30" maxlength="100">
+      </label>
+      <br />
+      <label>
+        Phone Number*:
+        <input type="text" name="number" size="30" maxlength="100">
+      </label>
+      <br />
+      <label>
+        Email*:
+        <input type="email" name="email" size="30" maxlength="100">
+      </label>
+      <br />
+
+
+
+        <p>Please describe your industry:</p>
+        <select name="devices">
+          <option value="Aeronautics">Aeronautics</option>
+          <option value="Astronautics">Astronautics</option>
+          <option value="Engineering">Engineering</option>
+          <option value="Manufacturing">Manufacturing</option>
+
+        </select>
+
+
+        <p>Which product(s) are you most interested in? To select more than one option, hold the command key.</p>
+        <select name="products" size="4" multiple="multiple">
+          <option value="Alpha">Alpha</option>
+          <option value="Beta">Beta</option>
+          <option value="Gamma">Gamma</option>
+          <option value="Delta">Delta</option>
+        </select>
+
+        <p>Would you like to receive our quarterly catalog?</p>
+        <label>
+          <input type="radio" name="rating" value="yes" />
+          Yes, please!
+        </label>
+        <label>
+          <input type="radio" name="rating" value"no" />
+          No, thanks.
+        </label>
+
+        <br />
+        <input type="submit" valu="Submit" />
+      </fieldset>
+    </form>
+
+  </main>
+
+</body>
+
+</html>
