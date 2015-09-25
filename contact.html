@@ -28,27 +28,27 @@
 
   <form action="http://www.example.com/review.php" method="get">
     <fieldset>
-      <label>
+      <label id="name">
         Name*:
         <input type="text" name="name" size="30" maxlength="100">
       </label>
       <br />
-      <label>
+      <label id="company">
         Company:
         <input type="text" name="company" size="30" maxlength="100">
       </label>
       <br />
-      <label>
+      <label id="address">
         Address:
         <input type="text" name="address" size="30" maxlength="100">
       </label>
       <br />
-      <label>
+      <label id="number">
         Phone Number*:
         <input type="text" name="number" size="30" maxlength="100">
       </label>
       <br />
-      <label>
+      <label id="email">
         Email*:
         <input type="email" name="email" size="30" maxlength="100">
       </label>
@@ -75,11 +75,11 @@
         </select>
 
         <p>Would you like to receive our quarterly catalog?</p>
-        <label>
+        <label id="yes">
           <input type="radio" name="rating" value="yes" />
           Yes, please!
         </label>
-        <label>
+        <label id="no">
           <input type="radio" name="rating" value"no" />
           No, thanks.
         </label>
